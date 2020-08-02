@@ -178,7 +178,7 @@ nav .order {
   z-index: -1;
 }
 
-.features {
+#features {
   min-height: 90vh;
   width: 80%;
   margin: auto;
@@ -193,7 +193,7 @@ nav .order {
       justify-content: space-around;
 }
 
-.features .cards {
+#features .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,7 +203,7 @@ nav .order {
   color: black;
 }
 
-.features .cards .card {
+#features .cards .card {
   background: white;
   margin: 0rem 5rem;
   display: -webkit-box;
@@ -218,29 +218,29 @@ nav .order {
   overflow: hidden;
 }
 
-.features .cards .card h4 {
+#features .cards .card h4 {
   margin: 2rem 0rem 1rem 0rem;
 }
 
-.features .cards .card p {
+#features .cards .card p {
   padding: 2rem;
 }
 
-.features .cards .card img {
+#features .cards .card img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.soon {
+#soon {
   background: radial-gradient(#525252, #131313);
   min-height: 80vh;
   position: relative;
   z-index: 0;
 }
 
-.soon img,
-.soon .circle,
-.soon h2 {
+#soon img,
+#soon .circle,
+#soon h2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -248,11 +248,11 @@ nav .order {
           transform: translate(-50%, -50%);
 }
 
-.soon .circle {
+#soon .circle {
   z-index: -1;
 }
 
-.soon h2 {
+#soon h2 {
   top: 25%;
 }
 
@@ -270,6 +270,8 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
 
 footer ul {
@@ -320,31 +322,31 @@ footer h1 {
     grid-column: 2/3;
     text-align: center;
   }
-  .features {
+  #features {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  .features h2 {
+  #features h2 {
     margin-top: 5rem;
   }
-  .features .cards {
+  #features .cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
   }
-  .features .cards .card {
+  #features .cards .card {
     margin: 5rem 0rem;
   }
-  .soon {
+  #soon {
     overflow: hidden;
   }
-  .soon img {
+  #soon img {
     width: 60%;
   }
-  .soon h2 {
+  #soon h2 {
     font-size: 5rem;
     text-align: center;
   }
